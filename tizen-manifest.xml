@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.neilbryson.montrefrancais" version="1.0.0">
+    <author email="neilbryson@live.com" href="https://github.com/neilbryson">Neil Bryson Cargamento</author>
+    <profile name="wearable"/>
+    <watch-application ambient-support="false" appid="org.neilbryson.montrefrancais" exec="montrefrancais">
+        <label>montrefrancais</label>
+        <label xml:lang="fr-fr">Montre en français</label>
+        <icon>drapeau.jpg</icon>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/sensor.pedometer">true</feature>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor">true</feature>
+</manifest>
